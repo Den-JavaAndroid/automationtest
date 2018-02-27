@@ -4,15 +4,12 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.concurrent.TimeUnit;
 
 /**
  * Created by denx7 on 26.02.2018.
  */
-public class BaseMethods {
-    private final Logger log = Logger.getLogger(BaseMethods.class);
+public class BaseUIMethods {
+    private final Logger log = Logger.getLogger(BaseUIMethods.class);
     private WebDriver driver;
 
     public WebDriver getChromeDriver() {

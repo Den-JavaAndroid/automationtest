@@ -1,12 +1,11 @@
 import Pages.GoogleMainPage;
 import Pages.GoogleSearchResultsPage;
-import base.BaseMethods;
+import base.BaseUIMethods;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
@@ -16,22 +15,22 @@ import java.util.ArrayList;
  */
 public class GoogleUITest {
     private WebDriver driver;
-    private BaseMethods baseMethods;
+    private BaseUIMethods baseUIMethods;
     private GoogleMainPage googleMainPage;
     private GoogleSearchResultsPage googleSearchResultsPage;
 
 
     @BeforeTest
     public void startTest() {
-        baseMethods = new BaseMethods();
-        driver = baseMethods.getChromeDriver();
+        baseUIMethods = new BaseUIMethods();
+        driver = baseUIMethods.getChromeDriver();
         googleMainPage = new GoogleMainPage(driver);
         googleSearchResultsPage = new GoogleSearchResultsPage(driver);
     }
 
     @AfterTest
     public void stopTest() {
-        baseMethods.closeDriver(getClass().getSimpleName());
+        baseUIMethods.closeDriver(getClass().getSimpleName());
     }
 
     @Test
