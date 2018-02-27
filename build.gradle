@@ -2,19 +2,47 @@ group 'automationtest'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: "io.qameta.allure"
 
 sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
 }
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.qameta.allure:allure-gradle:2.5"
+    }
+}
+allure {
+    autoconfigure = true
+    version = '2.6.0'
+}
 
 dependencies {
-    compile group: 'org.testng', name: 'testng', version: '6.14.2'
+    testCompile group: 'org.testng', name: 'testng', version: '6.14.2'
     testCompile group: 'io.rest-assured', name: 'rest-assured', version: '3.0.7'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.9.1'
     compile group: 'log4j', name: 'log4j', version: '1.2.17'
     compile files('lib/chromedriver.exe')
+}
+
+test {
+    // enable TestNG support (default is JUnit)
+    useTestNG()
+}
 
 
+
+allprojects {
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+
+    tasks.withType(Test) {
+        systemProperty "file.encoding", "UTF-8"
+    }
 }
