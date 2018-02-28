@@ -23,12 +23,12 @@ public class SearchApiTet {
 
     @Test(groups = "a", description = "Поиск по ИНН")
     public void searchByInnTest() {
-        responces.add(BaseApiMethods.searchByInnOgrn("7703228474"));
+        responces.add(BaseApiMethods.searchByInn("7703228474"));
     }
 
     @Test(groups = "a", description = "Поиск по ОГРН")
     public void searchByOgrnTest() {
-        responces.add(BaseApiMethods.searchByInnOgrn("1037739437966"));
+        responces.add(BaseApiMethods.searchByOgrn("1037739437966"));
     }
 
     @Test(dependsOnGroups = "a", description = "Результаты поиска по ИНН и ОГРН должны совпадать")
