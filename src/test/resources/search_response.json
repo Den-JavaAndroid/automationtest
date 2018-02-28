@@ -1,0 +1,1060 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "state": {
+      "$id": "/properties/state",
+      "type": "string",
+      "title": "The State Schema ",
+      "default": "",
+      "examples": [
+        "data"
+      ]
+    },
+    "data": {
+      "$id": "/properties/data",
+      "type": "object",
+      "properties": {
+        "свЮЛ": {
+          "$id": "/properties/data/properties/свЮЛ",
+          "type": "object",
+          "properties": {
+            "свНаимЮЛ": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свНаимЮЛ",
+              "type": "object",
+              "properties": {
+                "опф": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свНаимЮЛ/properties/опф",
+                  "type": "object",
+                  "properties": {
+                    "спрОПФ": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свНаимЮЛ/properties/опф/properties/спрОПФ",
+                      "type": "string",
+                      "title": "The Спропф Schema ",
+                      "default": "",
+                      "examples": [
+                        "ОКОПФ"
+                      ]
+                    },
+                    "кодОПФ": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свНаимЮЛ/properties/опф/properties/кодОПФ",
+                      "type": "string",
+                      "title": "The Кодопф Schema ",
+                      "default": "",
+                      "examples": [
+                        "12300"
+                      ]
+                    },
+                    "полнНаимОПФ": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свНаимЮЛ/properties/опф/properties/полнНаимОПФ",
+                      "type": "string",
+                      "title": "The Полннаимопф Schema ",
+                      "default": "",
+                      "examples": [
+                        "Общества с ограниченной ответственностью"
+                      ]
+                    }
+                  }
+                },
+                "датаНачДейств": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свНаимЮЛ/properties/датаНачДейств",
+                  "type": "null",
+                  "title": "The Датаначдейств Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "грн": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свНаимЮЛ/properties/грн",
+                  "type": "null",
+                  "title": "The Грн Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "наимЮЛПолн": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свНаимЮЛ/properties/наимЮЛПолн",
+                  "type": "string",
+                  "title": "The Наимюлполн Schema ",
+                  "default": "",
+                  "examples": [
+                    "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ТАНК-К\""
+                  ]
+                },
+                "наимЮЛСокр": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свНаимЮЛ/properties/наимЮЛСокр",
+                  "type": "string",
+                  "title": "The Наимюлсокр Schema ",
+                  "default": "",
+                  "examples": [
+                    "ООО \"ТАНК-К\""
+                  ]
+                },
+                "наимЮЛФирм": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свНаимЮЛ/properties/наимЮЛФирм",
+                  "type": "null",
+                  "title": "The Наимюлфирм Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                }
+              }
+            },
+            "свАдрес": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свАдрес",
+              "type": "object",
+              "properties": {
+                "адресРФ": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ",
+                  "type": "object",
+                  "properties": {
+                    "регион": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/регион",
+                      "type": "object",
+                      "properties": {
+                        "типРегион": {
+                          "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/регион/properties/типРегион",
+                          "type": "string",
+                          "title": "The Типрегион Schema ",
+                          "default": "",
+                          "examples": [
+                            "ГОРОД"
+                          ]
+                        },
+                        "наимРегион": {
+                          "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/регион/properties/наимРегион",
+                          "type": "string",
+                          "title": "The Наимрегион Schema ",
+                          "default": "",
+                          "examples": [
+                            "МОСКВА"
+                          ]
+                        }
+                      }
+                    },
+                    "район": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/район",
+                      "type": "null",
+                      "title": "The Район Schema ",
+                      "default": null,
+                      "examples": [
+                        null
+                      ]
+                    },
+                    "город": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/город",
+                      "type": "null",
+                      "title": "The Город Schema ",
+                      "default": null,
+                      "examples": [
+                        null
+                      ]
+                    },
+                    "населПункт": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/населПункт",
+                      "type": "null",
+                      "title": "The Населпункт Schema ",
+                      "default": null,
+                      "examples": [
+                        null
+                      ]
+                    },
+                    "улица": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/улица",
+                      "type": "object",
+                      "properties": {
+                        "типУлица": {
+                          "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/улица/properties/типУлица",
+                          "type": "string",
+                          "title": "The Типулица Schema ",
+                          "default": "",
+                          "examples": [
+                            "ПРОЕЗД"
+                          ]
+                        },
+                        "наимУлица": {
+                          "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/улица/properties/наимУлица",
+                          "type": "string",
+                          "title": "The Наимулица Schema ",
+                          "default": "",
+                          "examples": [
+                            "ШМИТОВСКИЙ"
+                          ]
+                        }
+                      }
+                    },
+                    "индекс": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/индекс",
+                      "type": "string",
+                      "title": "The Индекс Schema ",
+                      "default": "",
+                      "examples": [
+                        "123100"
+                      ]
+                    },
+                    "кодРегион": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/кодРегион",
+                      "type": "string",
+                      "title": "The Кодрегион Schema ",
+                      "default": "",
+                      "examples": [
+                        "77"
+                      ]
+                    },
+                    "кодАдрКладр": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/кодАдрКладр",
+                      "type": "string",
+                      "title": "The Кодадркладр Schema ",
+                      "default": "",
+                      "examples": [
+                        "770000000003158"
+                      ]
+                    },
+                    "дом": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/дом",
+                      "type": "string",
+                      "title": "The Дом Schema ",
+                      "default": "",
+                      "examples": [
+                        "12"
+                      ]
+                    },
+                    "корпус": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/корпус",
+                      "type": "null",
+                      "title": "The Корпус Schema ",
+                      "default": null,
+                      "examples": [
+                        null
+                      ]
+                    },
+                    "кварт": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/адресРФ/properties/кварт",
+                      "type": "string",
+                      "title": "The Кварт Schema ",
+                      "default": "",
+                      "examples": [
+                        "59"
+                      ]
+                    }
+                  }
+                },
+                "датаНачДейств": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/датаНачДейств",
+                  "type": "null",
+                  "title": "The Датаначдейств Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "грн": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/грн",
+                  "type": "null",
+                  "title": "The Грн Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "признОтсутАдресЮЛ": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свАдрес/properties/признОтсутАдресЮЛ",
+                  "type": "null",
+                  "title": "The Признотсутадресюл Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                }
+              }
+            },
+            "свСтатусРО": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свСтатусРО",
+              "type": "object",
+              "properties": {
+                "свСтатус": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свСтатусРО/properties/свСтатус",
+                  "type": "object",
+                  "properties": {
+                    "кодСтатусЮЛ": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свСтатусРО/properties/свСтатус/properties/кодСтатусЮЛ",
+                      "type": "string",
+                      "title": "The Кодстатусюл Schema ",
+                      "default": "",
+                      "examples": [
+                        "001"
+                      ]
+                    },
+                    "наимСтатусЮЛ": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свСтатусРО/properties/свСтатус/properties/наимСтатусЮЛ",
+                      "type": "string",
+                      "title": "The Наимстатусюл Schema ",
+                      "default": "",
+                      "examples": [
+                        "Действующее"
+                      ]
+                    }
+                  }
+                },
+                "свРегОрг": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свСтатусРО/properties/свРегОрг",
+                  "type": "object",
+                  "properties": {
+                    "кодНО": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свСтатусРО/properties/свРегОрг/properties/кодНО",
+                      "type": "string",
+                      "title": "The Кодно Schema ",
+                      "default": "",
+                      "examples": [
+                        "7703"
+                      ]
+                    },
+                    "наимНО": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свСтатусРО/properties/свРегОрг/properties/наимНО",
+                      "type": "string",
+                      "title": "The Наимно Schema ",
+                      "default": "",
+                      "examples": [
+                        "Инспекция Федеральной налоговой службы № 3 по г.Москве"
+                      ]
+                    }
+                  }
+                },
+                "датаНачДейств": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свСтатусРО/properties/датаНачДейств",
+                  "type": "null",
+                  "title": "The Датаначдейств Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "грн": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свСтатусРО/properties/грн",
+                  "type": "null",
+                  "title": "The Грн Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                }
+              }
+            },
+            "свОбрЮЛ": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свОбрЮЛ",
+              "type": "object",
+              "properties": {
+                "спОбрЮЛ": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свОбрЮЛ/properties/спОбрЮЛ",
+                  "type": "object",
+                  "properties": {
+                    "кодСпОбрЮЛ": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свОбрЮЛ/properties/спОбрЮЛ/properties/кодСпОбрЮЛ",
+                      "type": "string",
+                      "title": "The Кодспобрюл Schema ",
+                      "default": "",
+                      "examples": [
+                        "01"
+                      ]
+                    },
+                    "наимСпОбрЮЛ": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свОбрЮЛ/properties/спОбрЮЛ/properties/наимСпОбрЮЛ",
+                      "type": "string",
+                      "title": "The Наимспобрюл Schema ",
+                      "default": "",
+                      "examples": [
+                        "Создание юридического лица до 01.07.2002"
+                      ]
+                    }
+                  }
+                },
+                "датаНачДейств": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свОбрЮЛ/properties/датаНачДейств",
+                  "type": "null",
+                  "title": "The Датаначдейств Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "грн": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свОбрЮЛ/properties/грн",
+                  "type": "null",
+                  "title": "The Грн Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "датаОбрЮЛ": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свОбрЮЛ/properties/датаОбрЮЛ",
+                  "type": "integer",
+                  "title": "The Датаобрюл Schema ",
+                  "default": 0,
+                  "examples": [
+                    948326400000
+                  ]
+                },
+                "регНом": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свОбрЮЛ/properties/регНом",
+                  "type": "string",
+                  "title": "The Регном Schema ",
+                  "default": "",
+                  "examples": [
+                    "140129"
+                  ]
+                },
+                "наимРО": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свОбрЮЛ/properties/наимРО",
+                  "type": "string",
+                  "title": "The Наимро Schema ",
+                  "default": "",
+                  "examples": [
+                    "Государственное учреждение Московская регистрационная палата"
+                  ]
+                }
+              }
+            },
+            "свПрекрЮЛ": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свПрекрЮЛ",
+              "type": "null",
+              "title": "The Свпрекрюл Schema ",
+              "default": null,
+              "examples": [
+                null
+              ]
+            },
+            "свПреемств": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свПреемств",
+              "type": "null",
+              "title": "The Свпреемств Schema ",
+              "default": null,
+              "examples": [
+                null
+              ]
+            },
+            "свУстКап": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свУстКап",
+              "type": "object",
+              "properties": {
+                "датаНачДейств": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУстКап/properties/датаНачДейств",
+                  "type": "null",
+                  "title": "The Датаначдейств Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "грн": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУстКап/properties/грн",
+                  "type": "null",
+                  "title": "The Грн Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "наимВидКап": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУстКап/properties/наимВидКап",
+                  "type": "string",
+                  "title": "The Наимвидкап Schema ",
+                  "default": "",
+                  "examples": [
+                    "УСТАВНЫЙ КАПИТАЛ"
+                  ]
+                },
+                "сумКап": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУстКап/properties/сумКап",
+                  "type": "integer",
+                  "title": "The Сумкап Schema ",
+                  "default": 0,
+                  "examples": [
+                    8400
+                  ]
+                }
+              }
+            },
+            "сведУмУК": {
+              "$id": "/properties/data/properties/свЮЛ/properties/сведУмУК",
+              "type": "null",
+              "title": "The Сведумук Schema ",
+              "default": null,
+              "examples": [
+                null
+              ]
+            },
+            "свУчредит": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свУчредит",
+              "type": "object",
+              "properties": {
+                "учрЮЛРос": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрЮЛРос",
+                  "type": "array"
+                },
+                "учрЮЛИн": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрЮЛИн",
+                  "type": "array"
+                },
+                "учрФЛ": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ",
+                  "type": "array",
+                  "items": {
+                    "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items",
+                    "type": "object",
+                    "properties": {
+                      "фио": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/фио",
+                        "type": "object",
+                        "properties": {
+                          "фамилия": {
+                            "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/фио/properties/фамилия",
+                            "type": "string",
+                            "title": "The Фамилия Schema ",
+                            "default": "",
+                            "examples": [
+                              "Купреишвили"
+                            ]
+                          },
+                          "имя": {
+                            "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/фио/properties/имя",
+                            "type": "string",
+                            "title": "The Имя Schema ",
+                            "default": "",
+                            "examples": [
+                              "Севериан"
+                            ]
+                          },
+                          "отчество": {
+                            "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/фио/properties/отчество",
+                            "type": "string",
+                            "title": "The Отчество Schema ",
+                            "default": "",
+                            "examples": [
+                              "Михайлович"
+                            ]
+                          }
+                        }
+                      },
+                      "удЛичнФЛ": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/удЛичнФЛ",
+                        "type": "null",
+                        "title": "The Удличнфл Schema ",
+                        "default": null,
+                        "examples": [
+                          null
+                        ]
+                      },
+                      "адрМЖРФ": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/адрМЖРФ",
+                        "type": "null",
+                        "title": "The Адрмжрф Schema ",
+                        "default": null,
+                        "examples": [
+                          null
+                        ]
+                      },
+                      "адрМЖИн": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/адрМЖИн",
+                        "type": "null",
+                        "title": "The Адрмжин Schema ",
+                        "default": null,
+                        "examples": [
+                          null
+                        ]
+                      },
+                      "доляУстКап": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/доляУстКап",
+                        "type": "object",
+                        "properties": {
+                          "процент": {
+                            "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/доляУстКап/properties/процент",
+                            "type": "null",
+                            "title": "The Процент Schema ",
+                            "default": null,
+                            "examples": [
+                              null
+                            ]
+                          },
+                          "дробДесят": {
+                            "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/доляУстКап/properties/дробДесят",
+                            "type": "null",
+                            "title": "The Дробдесят Schema ",
+                            "default": null,
+                            "examples": [
+                              null
+                            ]
+                          },
+                          "дробПрост": {
+                            "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/доляУстКап/properties/дробПрост",
+                            "type": "null",
+                            "title": "The Дробпрост Schema ",
+                            "default": null,
+                            "examples": [
+                              null
+                            ]
+                          },
+                          "номинСтоим": {
+                            "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/доляУстКап/properties/номинСтоим",
+                            "type": "integer",
+                            "title": "The Номинстоим Schema ",
+                            "default": 0,
+                            "examples": [
+                              8400
+                            ]
+                          },
+                          "прЗалог": {
+                            "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/доляУстКап/properties/прЗалог",
+                            "type": "null",
+                            "title": "The Прзалог Schema ",
+                            "default": null,
+                            "examples": [
+                              null
+                            ]
+                          }
+                        }
+                      },
+                      "лицоУпрНасл": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/лицоУпрНасл",
+                        "type": "null",
+                        "title": "The Лицоупрнасл Schema ",
+                        "default": null,
+                        "examples": [
+                          null
+                        ]
+                      },
+                      "датаНачДейств": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/датаНачДейств",
+                        "type": "null",
+                        "title": "The Датаначдейств Schema ",
+                        "default": null,
+                        "examples": [
+                          null
+                        ]
+                      },
+                      "грн": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/грн",
+                        "type": "null",
+                        "title": "The Грн Schema ",
+                        "default": null,
+                        "examples": [
+                          null
+                        ]
+                      },
+                      "иннфл": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрФЛ/items/properties/иннфл",
+                        "type": "string",
+                        "title": "The Иннфл Schema ",
+                        "default": "",
+                        "examples": [
+                          "770300179867"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "учрРФСубМО": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрРФСубМО",
+                  "type": "array"
+                },
+                "учрВлПИФ": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУчредит/properties/учрВлПИФ",
+                  "type": "array"
+                }
+              }
+            },
+            "свДоляООО": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свДоляООО",
+              "type": "null",
+              "title": "The Свдоляооо Schema ",
+              "default": null,
+              "examples": [
+                null
+              ]
+            },
+            "свДержРеестрАО": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свДержРеестрАО",
+              "type": "null",
+              "title": "The Свдержреестрао Schema ",
+              "default": null,
+              "examples": [
+                null
+              ]
+            },
+            "свУправлДеят": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят",
+              "type": "object",
+              "properties": {
+                "сведДолжнФЛ": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ",
+                  "type": "array",
+                  "items": {
+                    "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items",
+                    "type": "object",
+                    "properties": {
+                      "фио": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/фио",
+                        "type": "object",
+                        "properties": {
+                          "фамилия": {
+                            "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/фио/properties/фамилия",
+                            "type": "string",
+                            "title": "The Фамилия Schema ",
+                            "default": "",
+                            "examples": [
+                              "Купреишвили"
+                            ]
+                          },
+                          "имя": {
+                            "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/фио/properties/имя",
+                            "type": "string",
+                            "title": "The Имя Schema ",
+                            "default": "",
+                            "examples": [
+                              "Севериан"
+                            ]
+                          },
+                          "отчество": {
+                            "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/фио/properties/отчество",
+                            "type": "string",
+                            "title": "The Отчество Schema ",
+                            "default": "",
+                            "examples": [
+                              "Михайлович"
+                            ]
+                          }
+                        }
+                      },
+                      "удЛичнФЛ": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/удЛичнФЛ",
+                        "type": "null",
+                        "title": "The Удличнфл Schema ",
+                        "default": null,
+                        "examples": [
+                          null
+                        ]
+                      },
+                      "адресМЖРФ": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/адресМЖРФ",
+                        "type": "null",
+                        "title": "The Адресмжрф Schema ",
+                        "default": null,
+                        "examples": [
+                          null
+                        ]
+                      },
+                      "адрМЖИн": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/адрМЖИн",
+                        "type": "null",
+                        "title": "The Адрмжин Schema ",
+                        "default": null,
+                        "examples": [
+                          null
+                        ]
+                      },
+                      "свДискв": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/свДискв",
+                        "type": "array"
+                      },
+                      "датаНачДейств": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/датаНачДейств",
+                        "type": "null",
+                        "title": "The Датаначдейств Schema ",
+                        "default": null,
+                        "examples": [
+                          null
+                        ]
+                      },
+                      "грн": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/грн",
+                        "type": "null",
+                        "title": "The Грн Schema ",
+                        "default": null,
+                        "examples": [
+                          null
+                        ]
+                      },
+                      "видДолжн": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/видДолжн",
+                        "type": "string",
+                        "title": "The Виддолжн Schema ",
+                        "default": "",
+                        "examples": [
+                          "02"
+                        ]
+                      },
+                      "наимВидДолжн": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/наимВидДолжн",
+                        "type": "string",
+                        "title": "The Наимвиддолжн Schema ",
+                        "default": "",
+                        "examples": [
+                          "Руководитель юридического лица"
+                        ]
+                      },
+                      "наимДолжн": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/наимДолжн",
+                        "type": "string",
+                        "title": "The Наимдолжн Schema ",
+                        "default": "",
+                        "examples": [
+                          "ГЕНЕРАЛЬНЫЙ ДИРЕКТОР"
+                        ]
+                      },
+                      "иннфл": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/иннфл",
+                        "type": "string",
+                        "title": "The Иннфл Schema ",
+                        "default": "",
+                        "examples": [
+                          "770300179867"
+                        ]
+                      },
+                      "огрнип": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/огрнип",
+                        "type": "null",
+                        "title": "The Огрнип Schema ",
+                        "default": null,
+                        "examples": [
+                          null
+                        ]
+                      },
+                      "номТел": {
+                        "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/сведДолжнФЛ/items/properties/номТел",
+                        "type": "null",
+                        "title": "The Номтел Schema ",
+                        "default": null,
+                        "examples": [
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                "упрОргРос": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/упрОргРос",
+                  "type": "null",
+                  "title": "The Упроргрос Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "упрОргИн": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУправлДеят/properties/упрОргИн",
+                  "type": "null",
+                  "title": "The Упроргин Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                }
+              }
+            },
+            "свПодразд": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свПодразд",
+              "type": "array"
+            },
+            "свОКВЭД": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свОКВЭД",
+              "type": "array"
+            },
+            "свУчетНО": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свУчетНО",
+              "type": "object",
+              "properties": {
+                "свНО": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУчетНО/properties/свНО",
+                  "type": "object",
+                  "properties": {
+                    "кодНО": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свУчетНО/properties/свНО/properties/кодНО",
+                      "type": "string",
+                      "title": "The Кодно Schema ",
+                      "default": "",
+                      "examples": [
+                        "7703"
+                      ]
+                    },
+                    "наимНО": {
+                      "$id": "/properties/data/properties/свЮЛ/properties/свУчетНО/properties/свНО/properties/наимНО",
+                      "type": "string",
+                      "title": "The Наимно Schema ",
+                      "default": "",
+                      "examples": [
+                        "Инспекция Федеральной налоговой службы № 3 по г.Москве"
+                      ]
+                    }
+                  }
+                },
+                "датаНачДейств": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУчетНО/properties/датаНачДейств",
+                  "type": "null",
+                  "title": "The Датаначдейств Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "грн": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУчетНО/properties/грн",
+                  "type": "null",
+                  "title": "The Грн Schema ",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "инн": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУчетНО/properties/инн",
+                  "type": "string",
+                  "title": "The Инн Schema ",
+                  "default": "",
+                  "examples": [
+                    "7703228474"
+                  ]
+                },
+                "кпп": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУчетНО/properties/кпп",
+                  "type": "string",
+                  "title": "The Кпп Schema ",
+                  "default": "",
+                  "examples": [
+                    "770301001"
+                  ]
+                },
+                "датаПостУч": {
+                  "$id": "/properties/data/properties/свЮЛ/properties/свУчетНО/properties/датаПостУч",
+                  "type": "integer",
+                  "title": "The Датапостуч Schema ",
+                  "default": 0,
+                  "examples": [
+                    949017600000
+                  ]
+                }
+              }
+            },
+            "свРегПФ": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свРегПФ",
+              "type": "null",
+              "title": "The Сврегпф Schema ",
+              "default": null,
+              "examples": [
+                null
+              ]
+            },
+            "свРегФСС": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свРегФСС",
+              "type": "null",
+              "title": "The Сврегфсс Schema ",
+              "default": null,
+              "examples": [
+                null
+              ]
+            },
+            "свЛицензия": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свЛицензия",
+              "type": "array"
+            },
+            "свЗапДейств": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свЗапДейств",
+              "type": "array"
+            },
+            "свЗапНеДейств": {
+              "$id": "/properties/data/properties/свЮЛ/properties/свЗапНеДейств",
+              "type": "array"
+            },
+            "датаВып": {
+              "$id": "/properties/data/properties/свЮЛ/properties/датаВып",
+              "type": "null",
+              "title": "The Датавып Schema ",
+              "default": null,
+              "examples": [
+                null
+              ]
+            },
+            "огрн": {
+              "$id": "/properties/data/properties/свЮЛ/properties/огрн",
+              "type": "string",
+              "title": "The Огрн Schema ",
+              "default": "",
+              "examples": [
+                "1037739437966"
+              ]
+            },
+            "датаОГРН": {
+              "$id": "/properties/data/properties/свЮЛ/properties/датаОГРН",
+              "type": "integer",
+              "title": "The Датаогрн Schema ",
+              "default": 0,
+              "examples": [
+                1044403200000
+              ]
+            },
+            "инн": {
+              "$id": "/properties/data/properties/свЮЛ/properties/инн",
+              "type": "string",
+              "title": "The Инн Schema ",
+              "default": "",
+              "examples": [
+                "7703228474"
+              ]
+            },
+            "кпп": {
+              "$id": "/properties/data/properties/свЮЛ/properties/кпп",
+              "type": "string",
+              "title": "The Кпп Schema ",
+              "default": "",
+              "examples": [
+                "770301001"
+              ]
+            }
+          },
+          "required": [
+            "огрн",
+            "инн"
+          ]
+        },
+        "кодОбр": {
+          "$id": "/properties/data/properties/кодОбр",
+          "type": "null",
+          "title": "The Кодобр Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "идЗапросФ": {
+          "$id": "/properties/data/properties/идЗапросФ",
+          "type": "null",
+          "title": "The Идзапросф Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "версФорм": {
+          "$id": "/properties/data/properties/версФорм",
+          "type": "null",
+          "title": "The Версформ Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "идДок": {
+          "$id": "/properties/data/properties/идДок",
+          "type": "null",
+          "title": "The Иддок Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        }
+      }
+    }
+  }
+}

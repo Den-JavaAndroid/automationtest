@@ -33,24 +33,27 @@ public class GoogleUITest {
         baseUIMethods.closeDriver(getClass().getSimpleName());
     }
 
-    @Test
+    @Test(description = "Поиск по ФИО")
     public void googleSearchFIOTest() {
         googleMainPage.openMainPage();
         googleMainPage.inputInSearchField("Пушкин Александр Сергеевич");
         googleMainPage.clickSearchButton();
+
+        baseUIMethods.takeScreenshot();
 //проверяем 3 первых результата
         ArrayList<WebElement> searchResults = googleSearchResultsPage.getSearchResults();
         Assert.assertTrue(searchResults.get(0).getText().contains("Пушкин, Александр Сергеевич — Википедия"), "Проверяем результат поиска: Пушкин, Александр Сергеевич — Википедия");
         Assert.assertTrue(searchResults.get(1).getText().contains("Биография Александра Сергеевича Пушкина"), "Проверяем результат поиска: Биография Александра Сергеевича Пушкина");
         Assert.assertTrue(searchResults.get(2).getText().contains("Пушкин Александр Сергеевич"), "Проверяем результат поиска: Пушкин Александр Сергеевич");
-
     }
 
-    @Test
+    @Test(description = "Поиск по Названию")
     public void googleSearchNameTest() {
         googleMainPage.openMainPage();
         googleMainPage.inputInSearchField("Яндекс");
         googleMainPage.clickSearchButton();
+
+        baseUIMethods.takeScreenshot();
         GoogleSearchResultsPage googleSearchResultsPage = new GoogleSearchResultsPage(driver);
 //проверяем 3 первых результата
         ArrayList<WebElement> searchResults = googleSearchResultsPage.getSearchResults();
@@ -59,18 +62,20 @@ public class GoogleUITest {
         Assert.assertTrue(searchResults.get(2).getText().contains("Яндекс - YouTube"), "Проверяем результат поиска: Яндекс - YouTube");
     }
 
-    @Test
+    @Test(description = "Проверка наличия всплывающей подсказки Поиск")
     public void googleTooltipOfSearchInputTest() {
         googleMainPage.openMainPage();
         Assert.assertEquals(googleMainPage.getTitleAtributeOfSearchInputField(), "Поиск", "Проверка наличия всплывающей подсказки Поиск");
     }
 
-    @Test
+    @Test(description = "Проверка открытия главной страницы при нажатии на логотип")
     public void googleRedirectToMainPageFromLogoTest() {
         googleMainPage.openMainPage();
         googleMainPage.inputInSearchField("selenium");
         googleMainPage.clickSearchButton();
         googleSearchResultsPage.clickGoogleLogo();
+
+        baseUIMethods.takeScreenshot();
         Assert.assertTrue(googleMainPage.isMainGooglePage(), "Проверяем что открылась главная страница (пустая область результатов)");
     }
 

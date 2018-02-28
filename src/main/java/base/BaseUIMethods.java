@@ -1,9 +1,13 @@
 package base;
 
+import io.qameta.allure.Attachment;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 
 /**
  * Created by denx7 on 26.02.2018.
@@ -32,11 +36,17 @@ public class BaseUIMethods {
         } else return driver;
     }
 
-    public  void closeDriver(String testName) {
+    public void closeDriver(String testName) {
         if (driver != null) {
             log.info("Закрываем драйвер в сценарии " + testName);
             driver.quit();
             driver = null;
         }
+    }
+
+
+    @Attachment("Page screenshot")
+    public byte[] takeScreenshot() {
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 }

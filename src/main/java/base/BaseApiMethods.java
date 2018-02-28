@@ -1,7 +1,7 @@
 package base;
 
-import io.restassured.response.Response;
-import io.restassured.response.ValidatableResponse;
+
+import io.restassured.module.jsv.JsonSchemaValidator;
 
 import static io.restassured.RestAssured.given;
 
@@ -15,8 +15,9 @@ public class BaseApiMethods {
                 queryParam("innOgrn", innOrOgrn).
                 when().get().then().
 //                log().body().
-        statusCode(200).
-                        extract().response().asString();
+                statusCode(200).
+                body(JsonSchemaValidator.matchesJsonSchemaInClasspath("search_response.json")).
+                extract().response().asString();
         return responceBody;
     }
 
